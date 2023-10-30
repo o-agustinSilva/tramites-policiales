@@ -1,0 +1,28 @@
+[33m9cbfd3b5[m[33m ([m[1;36mHEAD -> [m[1;32mmodels[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{0}: checkout: moving from main to models
+[33m9cbfd3b5[m[33m ([m[1;36mHEAD -> [m[1;32mmodels[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{1}: checkout: moving from home-page to main
+[33m945b5ed0[m[33m ([m[1;31morigin/home-page[m[33m, [m[1;32mhome-page[m[33m)[m HEAD@{2}: commit: Se modificó la estructura de react
+[33m9cbfd3b5[m[33m ([m[1;36mHEAD -> [m[1;32mmodels[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{3}: checkout: moving from models to home-page
+[33m9cbfd3b5[m[33m ([m[1;36mHEAD -> [m[1;32mmodels[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{4}: checkout: moving from main to models
+[33m9cbfd3b5[m[33m ([m[1;36mHEAD -> [m[1;32mmodels[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{5}: merge react-test: Fast-forward
+[33m0e4c2a5c[m HEAD@{6}: checkout: moving from react-test to main
+[33m9cbfd3b5[m[33m ([m[1;36mHEAD -> [m[1;32mmodels[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{7}: checkout: moving from main to react-test
+[33m0e4c2a5c[m HEAD@{8}: checkout: moving from react-test to main
+[33m9cbfd3b5[m[33m ([m[1;36mHEAD -> [m[1;32mmodels[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{9}: commit: Agregados los archivos .js
+[33m0e4c2a5c[m HEAD@{10}: checkout: moving from main to react-test
+[33m0e4c2a5c[m HEAD@{11}: checkout: moving from react-test to main
+[33m0e4c2a5c[m HEAD@{12}: checkout: moving from main to react-test
+[33m0e4c2a5c[m HEAD@{13}: commit (merge): Merge branch 'test-db'
+[33ma189f3fa[m HEAD@{14}: checkout: moving from test-db to main
+[33mea295aad[m HEAD@{15}: commit: branch
+[33m8e2b7d94[m HEAD@{16}: checkout: moving from main to test-db
+[33ma189f3fa[m HEAD@{17}: commit: añadida la conexion a psql
+[33m43495d32[m HEAD@{18}: checkout: moving from test-db to main
+[33m8e2b7d94[m HEAD@{19}: commit: añadida la base de datos postgresql
+[33m43495d32[m HEAD@{20}: checkout: moving from main to test-db
+[33m43495d32[m HEAD@{21}: checkout: moving from test-branches to main
+[33m8b1a442b[m HEAD@{22}: checkout: moving from main to test-branches
+[33m43495d32[m HEAD@{23}: checkout: moving from test-branches to main
+[33m8b1a442b[m HEAD@{24}: commit: added alert
+[33m43495d32[m HEAD@{25}: checkout: moving from main to test-branches
+[33m43495d32[m HEAD@{26}: commit: feat: Se creó el repositorio
+[33m36130e45[m HEAD@{27}: clone: from https://github.com/o-agustinSilva/tramites-policiales.git
