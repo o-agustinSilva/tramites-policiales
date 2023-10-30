@@ -69,3 +69,86 @@ button:hover {
     align-items: center;
     text-align: center;
 }
+
+/* Estilos del login*/
+.login-box {
+    margin-top: 5%;
+    background-color: #24252A;
+    width: 450px;
+    height: 500px;
+    border-radius: 25px;
+    text-align: center;
+    display: block !important;
+}
+
+#loginTitle {
+    color: #FAFAFA !important;
+    padding: 10px;
+}
+
+.loginForm {
+    margin-top: 10%;
+}
+
+.loginForm label {
+    display: block;
+    margin: 10px 0; /* Espaciado vertical entre elementos */
+    color: #FAFAFA;
+}
+
+.loginForm input,
+.loginForm input[type="submit"] {
+    display: block;
+    margin: 10px 0; /* Espaciado vertical entre elementos */
+}
+
+.loginForm label {
+    text-align: left;
+}
+
+.form-group small {
+    color: #FAFAFA !important;
+}
+
+.form-group {
+    text-align: left;
+    padding: 7px;
+}
+
+#forgotPassword a {
+    transition: all 0.3s ease 0s;
+}
+
+#forgotPassword a:hover {
+    color: rgb(44, 135, 196) !important;
+}
+
+#createAccount a {
+    transition: all 0.3s ease 0s;
+}
+
+#createAccount a:hover {
+    color: rgb(44, 135, 196) !important;
+}
+
+.smallText {
+    display: flex;
+    justify-content: space-between;
+}
+
+#createAccount {
+    text-align: right !important;
+}
+
+.login-box button{
+    margin-top: 50px;
+    width: 190px;
+    align-items: left;
+    background: rgba(0,135,169,1);
+    transition: all 0.3s ease 0s;
+    border: none;
+}
+
+.login-box button:hover {
+    background: rgb(1, 82, 102);
+}

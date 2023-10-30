@@ -9,13 +9,15 @@ function Header() {
             <img className="logo" src="#" alt="logo" />
             <nav>
                 <ul className="nav-links">
-                    <li><a href="#"><Link to="/">Inicio</Link></a></li>
-                    <li><a href="#"><Link to="/tramite">Trámite</Link></a></li>
-                    <li><a href="#">Mis trámites</a></li>
-                    <li><a href="#">Ayuda</a></li>
+                    <li><Link to="/">Inicio</Link></li>
+                    <li><Link to="/tramite">Trámite</Link></li>
+                    <li><Link to="/">Mis trámites</Link></li>
+                    <li><Link to="/">Ayuda</Link></li>
                 </ul>
             </nav>
-            <a className="loginButton" href="#"><Link to="/login"><button>Iniciar sesión</button></Link></a>
+            <Link to="/login" style={{ textDecoration: 'none' }}>
+                <button className="loginButton">Iniciar sesión</button>
+            </Link>
         </header>
     )
 }
