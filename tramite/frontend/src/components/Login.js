@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Header from "./Header";
 
 export default class Login extends Component {
     constructor(props) {
@@ -6,6 +7,11 @@ export default class Login extends Component {
     }
 
     render() {
-        return <p>This is the login page</p>;
+        return (
+            <div>
+                <Header/>
+                <p>This is the login page</p>
+            </div>
+        )
     }
 }

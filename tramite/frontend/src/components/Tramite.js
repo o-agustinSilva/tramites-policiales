@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Header from "./Header";
 
 export default class Tramite extends Component {
     constructor(props) {
@@ -6,6 +7,11 @@ export default class Tramite extends Component {
     }
 
     render() {
-        return <p>This is the "tramite" page</p>;
+        return (
+            <div>
+                <Header/>
+                <p>This is the "tramite" page</p>
+            </div>
+        )
     }
 }
