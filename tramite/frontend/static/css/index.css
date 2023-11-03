@@ -2,54 +2,52 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #FAFAFA;
+    background-color: #fafafa57;
+    font-family: 'Poppins', sans-serif;
 }
 
+a {
+    color: #fafafa50;
+}
 /* Estilos del header */
-li, a, button {
+#header a,
+#header button {
     text-decoration: none;
-    color: #FAFAFA;
+    color: #FAFAFA; 
 }
 
-header {
+
+#header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    background-color: #24252A;
+    background-color: #24252A !important;
 }
 
-.logo {
-    cursor: pointer;
+.dropdown-item {
+    color:#24252A !important;
 }
 
-.nav-links {
-    list-style: none;
-}
-
-.nav-links li {
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.nav-links li a {
+#navbarScroll a {
     transition: all 0.3s ease 0s;
 }
 
-.nav-links li a:hover {
+#navbarScroll a:hover {
     color: rgb(44, 135, 196);
 }
 
-button {
+#mainLoginButton {
     padding: 9px 25px;
     background: rgba(0,135,169,1);
     border: none;
-    border-radius: 50px;
+    border-radius: 12px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    min-width: 150px;
 }
 
-button:hover {
+#mainLoginButton:hover {
     background: rgb(1, 82, 102);
 }
 
@@ -72,9 +70,9 @@ button:hover {
 
 /* Estilos del login*/
 .login-box {
-    margin-top: 5%;
+    margin-top: 7%;
     background-color: #24252A;
-    width: 450px;
+    width: 400px;
     height: 500px;
     border-radius: 25px;
     text-align: center;
@@ -151,4 +149,42 @@ button:hover {
 
 .login-box button:hover {
     background: rgb(1, 82, 102);
+}
+
+/* Estilos de la pantalla de trámite*/
+#containerTramite {
+    margin-top: 2%;
+    text-align: center;
+    align-items: center;
+    background-color: #24252A;
+    height: 100px;
+}
+
+#containerTramite h1 {
+    color: #FAFAFA;
+}
+
+.listOfTramites {
+    border-radius: 12px;
+    background-color: rgb(24,76,116);
+}
+
+#tramiteTitle {
+    font-size: 26px;
+    color: #f8f4f4;
+}
+
+#requestTramite {
+    background: #f8f4f4;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color:#24252A;
+    width: 160px;
+}
+
+#requestTramite:hover {
+    background: #b5b5b5;
 }
