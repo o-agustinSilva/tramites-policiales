@@ -5,4 +5,5 @@ urlpatterns = [
     path('', index),
     path('login', index),
     path('tramite', index),
+    path('solicitarTramite', index)
 ]

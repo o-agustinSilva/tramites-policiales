@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Header from "../components/Header";
 import AnimatedIndex from "../components/AnimatedIndex";
+import Header from "../components/Header";
 
 export function HomePage() {    
     return ( 
