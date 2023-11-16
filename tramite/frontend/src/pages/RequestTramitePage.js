@@ -1,6 +1,12 @@
 import React, { Component } from "react";
+import Header from "../components/Header";
 import RequestTramite from "../components/RequestTramite";
 
 export function RequestTramitePage() {    
-    return <RequestTramite/>
+    return (
+        <div>
+            <Header/>
+            <RequestTramite/>
+        </div>   
+    )
 }

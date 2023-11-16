@@ -13,7 +13,7 @@ class User(models.Model):
     surname = models.CharField(max_length=50, null=False)
     email   = models.EmailField(max_length=55, null=False)
     role    = models.CharField(max_length=13, choices=ROLES)
-
+    
     def __str__(self):
         return self.name + ' ' + self.surname
 

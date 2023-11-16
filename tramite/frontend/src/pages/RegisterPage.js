@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Login from "../components/Login";
+import Register from "../components/Register";
 import Header from "../components/Header";
 
-export function LoginPage() {    
+export function RegisterPage() {    
     return ( 
         <div>
             <Header/>
-            <Login/>
+            <Register/>
         </div>
     )
 }

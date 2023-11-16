@@ -10,7 +10,6 @@ import Button from 'react-bootstrap/Button';
 export function Tramite() {
     return (
         <div>
-            <Header/>
             <Container fluid> 
                 <Row id="containerTramite"> 
                     <Col className="bg-dark.bg-gradient">

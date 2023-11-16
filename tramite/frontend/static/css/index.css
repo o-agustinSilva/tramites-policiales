@@ -9,6 +9,22 @@ body {
 a {
     color: #fafafa50;
 }
+
+/* Estilos generales */
+.smallText {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group small {
+    color: #FAFAFA !important;
+}
+
+.form-group {
+    text-align: left;
+    padding: 7px;
+}
+
 /* Estilos del header */
 #header a,
 #header button {
@@ -104,15 +120,6 @@ a {
     text-align: left;
 }
 
-.form-group small {
-    color: #FAFAFA !important;
-}
-
-.form-group {
-    text-align: left;
-    padding: 7px;
-}
-
 #forgotPassword a {
     transition: all 0.3s ease 0s;
 }
@@ -187,4 +194,47 @@ a {
 
 #requestTramite:hover {
     background: #b5b5b5;
+}
+
+/* Estilos de la pantalla de registro*/
+.register-box {
+    margin-top: 7%;
+    background-color: #24252A;
+    border-radius: 25px;
+    text-align: center;
+    display: block !important;
+}
+
+#registerTitle {
+    color: #FAFAFA !important;
+    padding: 10px;
+}
+
+.registerForm label {
+    display: block;
+    margin: 10px 0; /* Espaciado vertical entre elementos */
+    color: #FAFAFA;
+}
+
+.registerForm input,
+.registerForm input[type="submit"] {
+    display: block;
+    margin: 10px 0; /* Espaciado vertical entre elementos */
+}
+
+.registerForm label {
+    text-align: left;
+}
+
+.register-box button{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 190px;
+    background: rgba(0,135,169,1);
+    transition: all 0.3s ease 0s;
+    border: none;
+}
+
+.register-box button:hover {
+    background: rgb(1, 82, 102);
 }
