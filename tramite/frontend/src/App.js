@@ -6,6 +6,7 @@ import { TramitePage } from "./pages/TramitePage";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { RequestTramitePage } from './pages/RequestTramitePage';
 import { RegisterPage } from './pages/RegisterPage';
+import { PerfilPage } from './pages/PerfilPage';
 
 export default class App extends Component {
   constructor(props) {
@@ -21,6 +22,7 @@ export default class App extends Component {
               <Route path="/tramite" element={<TramitePage/>} />
               <Route path="/solicitarTramite" element={<RequestTramitePage/>} />
               <Route path="/registrarse" element={<RegisterPage/>} />
+              <Route path="/perfil" element={<PerfilPage/>} />
           </Routes>
       </Router>
     )

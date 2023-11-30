@@ -238,3 +238,64 @@ a {
 .register-box button:hover {
     background: rgb(1, 82, 102);
 }
+
+.containerImg{
+   padding-top: 20px;
+   padding-bottom: 20px;
+  
+}
+
+
+.perfilImagen{
+    display: flex;
+    float: right;
+    border: 1px solid #24252A;
+    background-color: #24252A;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+  
+}
+
+.perfilImagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.nombreImag{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+   
+}
+
+.contenedorBox{
+    margin-top: 7%;
+    background-color: #24252A;
+    border-radius: 25px;
+    text-align: center;
+    display: block !important;
+ 
+}
+
+.filaBox{
+   padding-top: 30px;
+   padding-bottom: 10px;
+
+}
+.btn-cerrarSesion {
+    /* MODIFICA LOS VALORES DE ALGUNOS BOTONES DEL PERFILBOX */
+    width: 60%; /* o el ancho deseado */
+    padding: .375rem .75rem; /* o el padding deseado */
+  }
+
+  .btn-tramite {
+    /* MODIFICA LOS VALORES DE ALGUNOS BOTONES DEL PERFILBOX */
+    width: 100%; /* o el ancho deseado */
+    padding: .375rem .75rem; /* o el padding deseado */
+  }
+
+
