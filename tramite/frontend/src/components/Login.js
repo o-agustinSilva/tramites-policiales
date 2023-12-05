@@ -29,7 +29,9 @@ function Login() {
                             </div>
                         </div>
 
-                        <button type="submit" className="btn btn-primary">Continuar</button>
+                        <Link to="/perfil">
+                            <button type="submit" className="btn btn-primary">Continuar</button>
+                        </Link>      
                     </form>
                 </div>
             </Container>

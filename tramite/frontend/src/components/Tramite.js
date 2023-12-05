@@ -23,12 +23,11 @@ export function Tramite() {
                     <Col className="tramiteIcon h-50 w-50 d-flex justify-content-start align-items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="80" height="90" fill="#f8f4f4" className="bi bi-file-text-fill" viewBox="0 0 16 16">
                             <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"/>
-                        </svg>
-                             
+                        </svg>  
                     </Col>
 
                     <Col xs={6} className="d-flex justify-content-center align-items-center">
-                        <h1 id="tramiteTitle">Certificado de domicilio</h1>   
+                        <h1 className="tramiteTitle">Certificado de domicilio</h1>   
                     </Col>
 
                     <Col className="d-flex justify-content-end align-items-center mb-3">
@@ -38,7 +37,134 @@ export function Tramite() {
                             </Link>
                         </Form>
                     </Col>
-                </Row>   
+                </Row>
+
+                <Row className="listOfTramites mt-3">
+                    <Col className="tramiteIcon h-50 w-50 d-flex justify-content-start align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="90" fill="#f8f4f4" className="bi bi-file-text-fill" viewBox="0 0 16 16">
+                            <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"/>
+                        </svg>
+                             
+                    </Col>
+
+                    <Col xs={6} className="d-flex justify-content-center align-items-center">
+                        <h1 className="tramiteTitle">Certificado de Residencia</h1>   
+                    </Col>
+
+                    <Col className="d-flex justify-content-end align-items-center mb-3">
+                        <Form>
+                            <Link to="/solicitarTramite">
+                                <Button id="requestTramite" variant="outline-success">Solicitar</Button>
+                            </Link>
+                        </Form>
+                    </Col>
+                </Row>
+
+                <Row className="listOfTramites mt-3">
+                    <Col className="tramiteIcon h-50 w-50 d-flex justify-content-start align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="90" fill="#f8f4f4" className="bi bi-file-text-fill" viewBox="0 0 16 16">
+                            <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"/>
+                        </svg>
+                             
+                    </Col>
+
+                    <Col xs={6} className="d-flex justify-content-center align-items-center">
+                        <h1 className="tramiteTitle">Certificado de Buena Conduta</h1>   
+                    </Col>
+
+                    <Col className="d-flex justify-content-end align-items-center mb-3">
+                        <Form>
+                            <Link to="/solicitarTramite">
+                                <Button id="requestTramite" variant="outline-success">Solicitar</Button>
+                            </Link>
+                        </Form>
+                    </Col>
+                </Row>
+
+                <Row className="listOfTramites mt-3">
+                    <Col className="tramiteIcon h-50 w-50 d-flex justify-content-start align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="90" fill="#f8f4f4" className="bi bi-file-text-fill" viewBox="0 0 16 16">
+                            <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"/>
+                        </svg>
+                             
+                    </Col>
+
+                    <Col xs={6} className="d-flex justify-content-center align-items-center">
+                        <h1 className="tramiteTitle">Certificado de Declaracion Jurada</h1>   
+                    </Col>
+
+                    <Col className="d-flex justify-content-end align-items-center mb-3">
+                        <Form>
+                            <Link to="/solicitarTramite">
+                                <Button id="requestTramite" variant="outline-success">Solicitar</Button>
+                            </Link>
+                        </Form>
+                    </Col>
+                </Row>
+
+                <Row className="listOfTramites mt-3">
+                    <Col className="tramiteIcon h-50 w-50 d-flex justify-content-start align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="90" fill="#f8f4f4" className="bi bi-file-text-fill" viewBox="0 0 16 16">
+                            <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"/>
+                        </svg>
+                             
+                    </Col>
+
+                    <Col xs={6} className="d-flex justify-content-center align-items-center">
+                        <h1 className="tramiteTitle">Certificado de Extravio</h1>   
+                    </Col>
+
+                    <Col className="d-flex justify-content-end align-items-center mb-3">
+                        <Form>
+                            <Link to="/solicitarTramite">
+                                <Button id="requestTramite" variant="outline-success">Solicitar</Button>
+                            </Link>
+                        </Form>
+                    </Col>
+                </Row>
+
+                <Row className="listOfTramites mt-3">
+                    <Col className="tramiteIcon h-50 w-50 d-flex justify-content-start align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="90" fill="#f8f4f4" className="bi bi-file-text-fill" viewBox="0 0 16 16">
+                            <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"/>
+                        </svg>
+                             
+                    </Col>
+
+                    <Col xs={6} className="d-flex justify-content-center align-items-center">
+                        <h1 className="tramiteTitle">Certificado de Exposicion</h1>   
+                    </Col>
+
+                    <Col className="d-flex justify-content-end align-items-center mb-3">
+                        <Form>
+                            <Link to="/solicitarTramite">
+                                <Button id="requestTramite" variant="outline-success">Solicitar</Button>
+                            </Link>
+                        </Form>
+                    </Col>
+                </Row>
+                <Row className="listOfTramites mt-3">
+                    <Col className="tramiteIcon h-50 w-50 d-flex justify-content-start align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="90" fill="#f8f4f4" className="bi bi-file-text-fill" viewBox="0 0 16 16">
+                            <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"/>
+                        </svg>
+                             
+                    </Col>
+
+                    <Col xs={6} className="d-flex justify-content-center align-items-center">
+                        <h1 className="tramiteTitle">Certificado de Declaracioon Jurada</h1>   
+                    </Col>
+
+                    <Col className="d-flex justify-content-end align-items-center mb-3">
+                        <Form>
+                            <Link to="/solicitarTramite">
+                                <Button id="requestTramite" variant="outline-success">Solicitar</Button>
+                            </Link>
+                        </Form>
+                    </Col>
+                </Row>
+               
+        
             </Container>
             
         </div>

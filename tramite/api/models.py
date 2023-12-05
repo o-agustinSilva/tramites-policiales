@@ -13,6 +13,9 @@ class User(models.Model):
     surname = models.CharField(max_length=50, null=False)
     email   = models.EmailField(max_length=55, null=False)
     role    = models.CharField(max_length=13, choices=ROLES)
+    password = models.CharField(max_length=255, null=False, default='a')
+    birthdate = models.DateField(auto_now=False, default="2000-06-10")
+    
     
     def __str__(self):
         return self.name + ' ' + self.surname

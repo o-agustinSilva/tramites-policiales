@@ -8,6 +8,7 @@ body {
 
 a {
     color: #fafafa50;
+    text-decoration: none;
 }
 
 /* Estilos generales */
@@ -25,11 +26,12 @@ a {
     padding: 7px;
 }
 
+
 /* Estilos del header */
 #header a,
 #header button {
     text-decoration: none;
-    color: #FAFAFA; 
+    color: #FAFAFA;
 }
 
 
@@ -42,7 +44,7 @@ a {
 }
 
 .dropdown-item {
-    color:#24252A !important;
+    color: #24252A !important;
 }
 
 #navbarScroll a {
@@ -55,7 +57,7 @@ a {
 
 #mainLoginButton {
     padding: 9px 25px;
-    background: rgba(0,135,169,1);
+    background: rgba(0, 135, 169, 1);
     border: none;
     border-radius: 12px;
     cursor: pointer;
@@ -106,14 +108,16 @@ a {
 
 .loginForm label {
     display: block;
-    margin: 10px 0; /* Espaciado vertical entre elementos */
+    margin: 10px 0;
+    /* Espaciado vertical entre elementos */
     color: #FAFAFA;
 }
 
 .loginForm input,
 .loginForm input[type="submit"] {
     display: block;
-    margin: 10px 0; /* Espaciado vertical entre elementos */
+    margin: 10px 0;
+    /* Espaciado vertical entre elementos */
 }
 
 .loginForm label {
@@ -145,11 +149,11 @@ a {
     text-align: right !important;
 }
 
-.login-box button{
+.login-box button {
     margin-top: 50px;
     width: 190px;
     align-items: left;
-    background: rgba(0,135,169,1);
+    background: rgba(0, 135, 169, 1);
     transition: all 0.3s ease 0s;
     border: none;
 }
@@ -173,12 +177,13 @@ a {
 
 .listOfTramites {
     border-radius: 12px;
-    background-color: rgb(24,76,116);
+    background-color: rgb(24, 76, 116);
 }
 
-#tramiteTitle {
+.tramiteTitle {
     font-size: 26px;
     color: #f8f4f4;
+
 }
 
 #requestTramite {
@@ -188,7 +193,7 @@ a {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     text-decoration: none;
-    color:#24252A;
+    color: #24252A;
     width: 160px;
 }
 
@@ -212,29 +217,100 @@ a {
 
 .registerForm label {
     display: block;
-    margin: 10px 0; /* Espaciado vertical entre elementos */
+    margin: 10px 0;
+    /* Espaciado vertical entre elementos */
     color: #FAFAFA;
 }
 
 .registerForm input,
 .registerForm input[type="submit"] {
     display: block;
-    margin: 10px 0; /* Espaciado vertical entre elementos */
+    margin: 10px 0;
+    /* Espaciado vertical entre elementos */
 }
 
 .registerForm label {
     text-align: left;
 }
 
-.register-box button{
+.register-box button {
     margin-top: 50px;
     margin-bottom: 10px;
     width: 190px;
-    background: rgba(0,135,169,1);
+    background: rgba(0, 135, 169, 1);
     transition: all 0.3s ease 0s;
     border: none;
 }
 
 .register-box button:hover {
     background: rgb(1, 82, 102);
+}
+
+
+
+/* Estilos para la pantalla de perfil*/
+.profileContainer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 720px;
+}
+
+#profileImg {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+#profileName {
+    font-size: 35px;
+}
+
+.profileBox {
+    background-color: #24252A;
+    border-radius: 25px;
+    text-align: center;
+    width: 700px;
+}
+
+.boxRow {
+    padding: 20px;
+}
+
+.optionTitle {
+    color: #FAFAFA;
+    font-size: 26px;
+    margin: 5px;
+}
+
+.optionButton {
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease 0s;
+}
+
+.optionButton:hover {
+    background: #b5b5b552;
+}
+
+@media (max-width: 575px) {
+    .optionButton {
+        margin-top: 5px;
+    }
+}
+
+/* Estilos para la pantalla de solicitar un trmaite */
+#infoTramite {
+    padding: 50px;
+    margin: 80px;
+    border-radius: 25px;
+    background-color: #184c74;
+    color: #f8f4f4;
+}
+
+#containerRequest {
+    padding: 50px;
+    margin: 80px;
+    border-radius: 25px;
+    background-color: #184c74;
+    color: #f8f4f4;
 }
